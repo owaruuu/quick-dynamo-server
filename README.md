@@ -31,4 +31,4 @@ C. correr `npm i` para instalar las dependencias
 
 D. correr `npm start` para empezar el server
 
-E. hacer una consulta a `/doctor` para crear un nuevo doctor
+E. hacer una consulta POST a `/doctor` para crear un nuevo doctor
