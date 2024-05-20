@@ -19,6 +19,16 @@ B. abrir una consola y correr `aws configure sso`
    10.dejar default output format como esta [None]
    11.dejar profile name como esta
 
+Si tus credenciales han caducado puedes(las credenciales duran 12 horas):
+
+1. correr `aws sso login --profile [nombre de tu perfil]`
+2. presionar 'confirm and continue' en la pagina que se abre
+   2.1 haz login con tu cuenta si es necesario
+3. dar accesso a botocore en siguiente pagina
+4. cerrar pestana
+
 C. correr `npm i` para instalar las dependencias
+
 D. correr `npm start` para empezar el server
+
 E. hacer una consulta a `/doctor` para crear un nuevo doctor
